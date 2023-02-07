@@ -2,36 +2,33 @@
 // this is an auto generated file. This will be overwritten
 
 export const onCreateNote = /* GraphQL */ `
-  subscription OnCreateNote($filter: ModelSubscriptionNoteFilterInput) {
-    onCreateNote(filter: $filter) {
+  subscription OnCreateNote {
+    onCreateNote {
       id
       name
       description
-      image
       createdAt
       updatedAt
     }
   }
 `;
 export const onUpdateNote = /* GraphQL */ `
-  subscription OnUpdateNote($filter: ModelSubscriptionNoteFilterInput) {
-    onUpdateNote(filter: $filter) {
+  subscription OnUpdateNote {
+    onUpdateNote {
       id
       name
       description
-      image
       createdAt
       updatedAt
     }
   }
 `;
 export const onDeleteNote = /* GraphQL */ `
-  subscription OnDeleteNote($filter: ModelSubscriptionNoteFilterInput) {
-    onDeleteNote(filter: $filter) {
+  subscription OnDeleteNote {
+    onDeleteNote {
       id
       name
       description
-      image
       createdAt
       updatedAt
     }

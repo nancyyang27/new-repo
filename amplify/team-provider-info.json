@@ -14,6 +14,16 @@
     "categories": {
       "auth": {
         "cognitocf0c6096": {}
+      },
+      "api": {
+        "createreactappautham": {},
+        "apiab09935e": {}
+      },
+      "function": {
+        "createreactappautham19fabcda": {
+          "deploymentBucketName": "amplify-authcra-devi-71308-deployment",
+          "s3Key": "amplify-builds/createreactappautham19fabcda-52526f6647534b725751-build.zip"
+        }
       }
     }
   }
